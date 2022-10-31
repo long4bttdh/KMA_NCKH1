@@ -1,0 +1,40 @@
+
+.nav_button
+{
+    color: white;
+    cursor: pointer;
+}
+.nav-button:hover
+{
+    font-size: 17px;
+    background-color: brown;
+    text-decoration:underline;
+}
+.nav__has-button
+{
+    margin-top: 5px;
+    width: 100%;
+}
+.nav-button-icon
+{
+    color: white;
+}
+
+.nav-button-careers:hover
+{
+    color:white;
+    background-color: rgba(221, 47, 34, 0.772);
+    
+}
+
+.user_button
+{
+    height: 50px;
+    width: 50px;
+    margin:10px 40px;
+    background-color: black;
+}
+.user_button:hover
+{
+    cursor: pointer;
+}

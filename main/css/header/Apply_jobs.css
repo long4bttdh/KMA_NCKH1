@@ -1,0 +1,27 @@
+.subnav
+{
+    position: absolute;
+    display: none;
+    list-style: none;
+}
+.nav-button
+{
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0px 20px;
+    cursor: pointer;
+    display: block;
+}
+.subnav li a
+{
+    background-color: rgba(3, 7, 14, 0.72);
+
+}
+.nav-button-more
+{
+    position: relative;
+}
+.nav li:hover .subnav
+{
+    display: block;
+}

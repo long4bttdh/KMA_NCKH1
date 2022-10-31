@@ -1,0 +1,146 @@
+#contacts
+{
+    margin: 100px 0;
+}
+.contact-content
+{
+    display: flex;
+    margin: auto;
+    width: 60%;
+}
+.mt-8
+{
+    margin-top: 8px;
+}
+.mt-16
+{
+    margin-top: 16px;
+}
+.row
+{
+    display: flex;
+}
+.row::after
+{
+    contacts: "";
+    display: block;
+    clear: both;
+}
+.col{
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.col-full
+{
+    width: 100%;
+    margin-top: 20px;
+    margin-right: 15px;
+}
+.col-half
+{
+    width: 50%;
+    margin-right: 15px;
+}
+
+
+#contacts .contacts-section
+{
+    width: 800px;
+    padding: 64px 0 112px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#contacts .section-heading
+{
+    font-size: 31px;
+
+}
+#contacts .section-sub-heading
+{
+    text-align: center;
+    
+}
+#contacts .section-heading
+{
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 4px;
+}
+#contacts .section-sub-heading
+{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 25px;
+    font-style: italic;
+    opacity: 0.6;
+    margin-bottom: 59px;
+}
+#contacts .about-text
+{
+    margin-top: 25px;
+    font-size: 15px;
+    text-align: justify;
+    line-height: 1.4;
+}
+.members-list
+{
+    margin-top: 48px;
+    overflow: hidden;
+}
+#contacts .member-item
+{
+    float: left;
+    width: 33.33%;
+}
+#contacts .member-name
+{
+    font-size: 15px;
+    text-align: center;
+    font-weight: 900;
+}
+#contacts .member-img
+{
+    width: 154px;
+    margin-top: 15px;
+    border-radius: 4px;
+    margin-left: 20%;
+}
+
+
+.contact-contacts
+{
+    margin-top: 48px;
+}
+.contact-info
+{
+    font-size: 18px;
+}
+.contact-info i{
+    width: 30px;
+    display: inline-block;
+}
+.contact-info p{
+   padding-top: 7px; 
+}
+.contact-form
+{
+    font-size: 15px;
+}
+.contact-form .form-control
+{
+    height: 20px;
+    padding: 10px;
+    border: 2px solid rgb(103, 94, 94);
+    width: 100%;
+}
+.contact-form .form-submit-btn
+{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    padding: 10px 16px;
+    float: right;
+}
+
